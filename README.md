@@ -8,4 +8,4 @@
 `NODE_DOCKER_PORT=3000`<br />
 * Installing<br />
 `docker compose up -d`<br />
-* Go to `http://localhost:3000`
+* Go to http://localhost:3000
