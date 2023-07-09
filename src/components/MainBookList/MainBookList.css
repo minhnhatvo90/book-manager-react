@@ -1,0 +1,17 @@
+.card-title {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+
+.card-subtitle {
+    text-align: left;
+    font-weight: thin;
+    color: grey;
+}
+
+.card-text {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}

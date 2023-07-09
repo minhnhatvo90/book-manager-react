@@ -1,0 +1,15 @@
+version: "1.0"
+services:
+  book-manager:
+    container_name: book-manager
+    restart: on-failure
+    build:
+        context: ./
+        dockerfile: Dockerfile
+    volumes:
+      - ./:/book-manager
+      - /book-manager/node_modules
+    env_file: ./.env
+    ports:
+      - $NODE_LOCAL_PORT:$NODE_DOCKER_PORT
+    tty: true
